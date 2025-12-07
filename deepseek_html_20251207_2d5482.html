@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>زياد | خبير تسويق رقمي وإدارة حملات</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- تأثيرات الخلفية المتحركة -->
+    <div class="background-effects">
+        <div class="animated-grid"></div>
+        <div class="floating-dots"></div>
+        <div class="pulse-circles">
+            <div class="circle circle-1"></div>
+            <div class="circle circle-2"></div>
+            <div class="circle circle-3"></div>
+        </div>
+    </div>
+    
+    <!-- شريط التنقل -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <!-- الشعار -->
+            <a href="#" class="navbar-logo">
+                <div class="logo-icon">
+                    <i class="fas fa-chart-network"></i>
+                </div>
+                <span class="logo-text">زياد</span>
+            </a>
+            
+            <!-- قائمة التنقل -->
+            <ul class="navbar-menu" id="navbarMenu">
+                <li class="navbar-item">
+                    <a href="#" class="navbar-link active" data-page="home">
+                        <span class="nav-number">01</span>
+                        <span class="nav-text">الرئيسية</span>
+                    </a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#" class="navbar-link" data-page="about">
+                        <span class="nav-number">02</span>
+                        <span class="nav-text">عني</span>
+                    </a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#" class="navbar-link" data-page="services">
+                        <span class="nav-number">03</span>
+                        <span class="nav-text">خدماتي</span>
+                    </a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#" class="navbar-link" data-page="campaigns">
+                        <span class="nav-number">04</span>
+                        <span class="nav-text">حملاتي</span>
+                    </a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#" class="navbar-link" data-page="clients">
+                        <span class="nav-number">05</span>
+                        <span class="nav-text">عملائي</span>
+                    </a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#" class="navbar-link" data-page="contact">
+                        <span class="nav-number">06</span>
+                        <span class="nav-text">اتصل بي</span>
+                    </a>
+                </li>
+            </ul>
+            
+            <!-- زر القائمة للموبايل -->
+            <button class="navbar-toggle" id="navbarToggle">
+                <span class="toggle-line"></span>
+                <span class="toggle-line"></span>
+                <span class="toggle-line"></span>
+            </button>
+        </div>
+    </nav>
+    
+    <!-- مؤشر التمرير -->
+    <div class="scroll-indicator">
+        <div class="scroll-line">
+            <div class="scroll-progress"></div>
+        </div>
+        <span class="scroll-text">تمرير</span>
+    </div>
+    
+    <!-- الصفحة الرئيسية -->
+    <div class="page active" id="home">
+        <div class="hero">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="badge-text">خبير تسويق رقمي</span>
+                    <div class="badge-line"></div>
+                </div>
+                
+                <h1 class="hero-title">
+                    <span class="title-line title-line-1">إبداع بلا حدود</span>
+                    <span class="title-line title-line-2">في عالم <span class="highlight">التسويق الرقمي</span></span>
+                </h1>
+                
+                <p class="hero-description">
+                    أطور استراتيجيات تسويقية مبتكرة تحول الأفكار إلى حملات ناجحة. أجمع بين الإبداع والتحليل لتحقيق نتائج ملموسة تنمو بها أعمالك.
+                </p>
+                
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-content">
+                            <div class="stat-number" data-count="150">0</div>
+                            <div class="stat-label">مشروع ناجح</div>
+                        </div>
+                        <div class="stat-icon">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="stat-item">
+                        <div class="stat-content">
+                            <div class="stat-number" data-count="85">0</div>
+                            <div class="stat-label">عميل راضٍ</div>
+                        </div>
+                        <div class="stat-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="stat-item">
+                        <div class="stat-content">
+                            <div class="stat-number" data-count="300">0</div>
+                            <div class="stat-label">% نمو في المبيعات</div>
+                        </div>
+                        <div class="stat-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="hero-actions">
+                    <a href="#" class="btn btn-primary" data-page="contact">
+                        <span class="btn-text">لنبدأ مشروعك</span>
+                        <div class="btn-icon">
+                            <i class="fas fa-arrow-left"></i>
+                        </div>
+                    </a>
+                    <a href="#" class="btn btn-outline" data-page="campaigns">
+                        <span class="btn-text">شاهد أعمالي</span>
+                        <div class="btn-icon">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="hero-visual">
+                <div class="visual-container">
+                    <div class="visual-grid">
+                        <div class="grid-item item-1"></div>
+                        <div class="grid-item item-2"></div>
+                        <div class="grid-item item-3"></div>
+                        <div class="grid-item item-4"></div>
+                    </div>
+                    <div class="visual-graph">
+                        <div class="graph-line line-1"></div>
+                        <div class="graph-line line-2"></div>
+                        <div class="graph-line line-3"></div>
+                    </div>
+                    <div class="visual-floating">
+                        <div class="floating-element element-1">
+                            <i class="fas fa-bullseye"></i>
+                        </div>
+                        <div class="floating-element element-2">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <div class="floating-element element-3">
+                            <i class="fas fa-chart-pie"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- قسم الخدمات السريعة -->
+        <div class="quick-services">
+            <div class="section-header">
+                <h2 class="section-title">حلول تسويقية متكاملة</h2>
+                <p class="section-subtitle">خدمات مصممة لتحقيق أهدافك التسويقية بكفاءة عالية</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card" data-page="services">
+                    <div class="service-icon">
+                        <i class="fas fa-ad"></i>
+                    </div>
+                    <h3 class="service-title">إعلانات مدمجة</h3>
+                    <p class="service-description">حملات إعلانية مدروسة على جميع المنصات الرقمية</p>
+                    <div class="service-badge">
+                        <span>الأكثر طلباً</span>
+                    </div>
+                </div>
+                
+                <div class="service-card" data-page="services">
+                    <div class="service-icon">
+                        <i class="fas fa-analytics"></i>
+                    </div>
+                    <h3 class="service-title">تحليل البيانات</h3>
+                    <p class="service-description">تحليل أداء الحملات واتخاذ قرارات مدروسة</p>
+                    <div class="service-badge">
+                        <span>دقيق</span>
+                    </div>
+                </div>
+                
+                <div class="service-card" data-page="services">
+                    <div class="service-icon">
+                        <i class="fas fa-bullhorn"></i>
+                    </div>
+                    <h3 class="service-title">استراتيجية محتوى</h3>
+                    <p class="service-description">تخطيط وتنفيذ استراتيجيات محتوى فعالة</p>
+                    <div class="service-badge">
+                        <span>مبتكر</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- قسم العملاء -->
+        <div class="featured-clients">
+            <div class="section-header">
+                <h2 class="section-title">يثق بي العملاء</h2>
+                <p class="section-subtitle">علامات تجارية ناجحة نمت مع استراتيجياتي التسويقية</p>
+            </div>
+            
+            <div class="clients-grid">
+                <div class="client-logo">TechCo</div>
+                <div class="client-logo">StyleHub</div>
+                <div class="client-logo">Foodie</div>
+                <div class="client-logo">EduSmart</div>
+                <div class="client-logo">FitLife</div>
+                <div class="client-logo">Artisan</div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- صفحة عني -->
+    <div class="page" id="about">
+        <div class="page-header">
+            <div class="header-content">
+                <div class="header-number">01</div>
+                <h1 class="page-title">قصة نجاحي</h1>
+                <p class="page-description">من الشغف إلى الاحترافية في عالم التسويق الرقمي</p>
+            </div>
+        </div>
+        
+        <div class="about-content">
+            <div class="about-grid">
+                <div class="about-text">
+                    <div class="about-intro">
+                        <h2>شغفي تحويل التحديات إلى فرص نمو</h2>
+                        <p>بدأت رحلتي في التسويق الرقمي منذ 6 سنوات، حيث اكتشفت شغفي بتحويل البيانات إلى استراتيجيات ناجحة. أعمل على فهم عميق لسلوك المستهلك وتطوير حلول مبتكرة تلبي احتياجات السوق.</p>
+                    </div>
+                    
+                    <div class="about-timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-year">2018</div>
+                            <div class="timeline-content">
+                                <h3>بداية الرحلة</h3>
+                                <p>تأسيس أول مشروع تسويقي رقمي</p>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <div class="timeline-year">2020</div>
+                            <div class="timeline-content">
+                                <h3>التخصص</h3>
+                                <p>التركيز على إدارة الحملات الإعلانية</p>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <div class="timeline-year">2023</div>
+                            <div class="timeline-content">
+                                <h3>التميز</h3>
+                                <p>توسيع نطاق العمل ليشمل استراتيجيات متكاملة</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-stats">
+                    <div class="stats-card">
+                        <div class="stats-number">5+</div>
+                        <div class="stats-label">سنوات خبرة</div>
+                    </div>
+                    
+                    <div class="stats-card">
+                        <div class="stats-number">98%</div>
+                        <div class="stats-label">رضا العملاء</div>
+                    </div>
+                    
+                    <div class="stats-card">
+                        <div class="stats-number">10M+</div>
+                        <div class="stats-label">ميزانية إعلانية</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- صفحة الخدمات -->
+    <div class="page" id="services">
+        <div class="page-header">
+            <div class="header-content">
+                <div class="header-number">02</div>
+                <h1 class="page-title">حلول متكاملة</h1>
+                <p class="page-description">خدمات مصممة لتحقيق النمو المستدام لأعمالك</p>
+            </div>
+        </div>
+        
+        <div class="services-content">
+            <div class="services-grid-detailed">
+                <div class="service-detail-card">
+                    <div class="service-header">
+                        <div class="service-number">01</div>
+                        <div class="service-icon">
+                            <i class="fas fa-bullseye"></i>
+                        </div>
+                    </div>
+                    <h3 class="service-title">استشارة تسويقية</h3>
+                    <p class="service-description">تحليل شامل للسوق وتطوير استراتيجيات تسويقية مخصصة</p>
+                    <ul class="service-features">
+                        <li>تحليل المنافسين</li>
+                        <li>دراسة الجمهور المستهدف</li>
+                        <li>تخطيط الحملات</li>
+                    </ul>
+                </div>
+                
+                <div class="service-detail-card">
+                    <div class="service-header">
+                        <div class="service-number">02</div>
+                        <div class="service-icon">
+                            <i class="fas fa-ad"></i>
+                        </div>
+                    </div>
+                    <h3 class="service-title">إدارة الإعلانات</h3>
+                    <p class="service-description">إدارة متكاملة لحملات الإعلانات الرقمية</p>
+                    <ul class="service-features">
+                        <li>إعلانات وسائل التواصل</li>
+                        <li>إعلانات جوجل</li>
+                        <li>تحسين وتحليل الأداء</li>
+                    </ul>
+                </div>
+                
+                <div class="service-detail-card">
+                    <div class="service-header">
+                        <div class="service-number">03</div>
+                        <div class="service-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                    </div>
+                    <h3 class="service-title">تحليل البيانات</h3>
+                    <p class="service-description">تحليل أداء الحملات وتقديم تقارير مفصلة</p>
+                    <ul class="service-features">
+                        <li>تقارير أداء شهرية</li>
+                        <li>تحليل عائد الاستثمار</li>
+                        <li>توصيات تحسين مستمرة</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- صفحة الحملات -->
+    <div class="page" id="campaigns">
+        <div class="page-header">
+            <div class="header-content">
+                <div class="header-number">03</div>
+                <h1 class="page-title">حملات متميزة</h1>
+                <p class="page-description">نجاحات تروي قصص نمو العلامات التجارية</p>
+            </div>
+        </div>
+        
+        <div class="campaigns-content">
+            <div class="campaigns-grid">
+                <div class="campaign-card">
+                    <div class="campaign-image">
+                        <div class="image-overlay">
+                            <span class="overlay-text">عرض التفاصيل</span>
+                        </div>
+                    </div>
+                    <div class="campaign-info">
+                        <div class="campaign-category">وسائل التواصل</div>
+                        <h3 class="campaign-title">حملة إطلاق العلامة التجارية</h3>
+                        <p class="campaign-description">حملة متكاملة لإطلاق علامة تجارية جديدة في سوق الأزياء</p>
+                        <div class="campaign-stats">
+                            <div class="stat">
+                                <i class="fas fa-eye"></i>
+                                <span>2.5M مشاهدة</span>
+                            </div>
+                            <div class="stat">
+                                <i class="fas fa-engagement"></i>
+                                <span>25% تفاعل</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="campaign-card">
+                    <div class="campaign-image">
+                        <div class="image-overlay">
+                            <span class="overlay-text">عرض التفاصيل</span>
+                        </div>
+                    </div>
+                    <div class="campaign-info">
+                        <div class="campaign-category">إعلانات مدمجة</div>
+                        <h3 class="campaign-title">حملة المبيعات الموسمية</h3>
+                        <p class="campaign-description">حملة تسويقية لموسم التخفيضات حققت زيادة 300% في المبيعات</p>
+                        <div class="campaign-stats">
+                            <div class="stat">
+                                <i class="fas fa-shopping-cart"></i>
+                                <span>1500 طلب</span>
+                            </div>
+                            <div class="stat">
+                                <i class="fas fa-dollar-sign"></i>
+                                <span>320% عائد</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="campaign-card">
+                    <div class="campaign-image">
+                        <div class="image-overlay">
+                            <span class="overlay-text">عرض التفاصيل</span>
+                        </div>
+                    </div>
+                    <div class="campaign-info">
+                        <div class="campaign-category">استراتيجية محتوى</div>
+                        <h3 class="campaign-title">بناء الهوية الرقمية</h3>
+                        <p class="campaign-description">تطوير هوية رقمية متكاملة لشركة تقنية ناشئة</p>
+                        <div class="campaign-stats">
+                            <div class="stat">
+                                <i class="fas fa-users"></i>
+                                <span>+50K متابع</span>
+                            </div>
+                            <div class="stat">
+                                <i class="fas fa-growth"></i>
+                                <span>85% نمو</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- صفحة العملاء -->
+    <div class="page" id="clients">
+        <div class="page-header">
+            <div class="header-content">
+                <div class="header-number">04</div>
+                <h1 class="page-title">ثقة العملاء</h1>
+                <p class="page-description">شراكات ناجحة بنيت على الثقة والنتائج الملموسة</p>
+            </div>
+        </div>
+        
+        <div class="clients-content">
+            <div class="testimonials">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"زياد غير طريقة تسويقنا بالكامل. النتائج كانت مذهلة وتجاوزت توقعاتنا بكثير."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <h4>أحمد السيد</h4>
+                            <span>مدير التسويق - TechCo</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"استراتيجياته المبتكرة ساعدتنا على الوصول إلى جمهور جديد ونمو مبيعاتنا بنسبة 250%."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <h4>سارة محمد</h4>
+                            <span>مؤسسة StyleHub</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- صفحة الاتصال -->
+    <div class="page" id="contact">
+        <div class="page-header">
+            <div class="header-content">
+                <div class="header-number">05</div>
+                <h1 class="page-title">لنبدأ معاً</h1>
+                <p class="page-description">لنتحدث عن مشروعك ونصنع معاً قصة نجاح جديدة</p>
+            </div>
+        </div>
+        
+        <div class="contact-content">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>البريد الإلكتروني</h3>
+                            <p>ziad@marketing-expert.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>الهاتف</h3>
+                            <p>+966 55 123 4567</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>ساعات العمل</h3>
+                            <p>الأحد - الخميس: 9 ص - 6 م</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="projectForm">
+                        <div class="form-group">
+                            <input type="text" placeholder="اسمك الكامل" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="email" placeholder="بريدك الإلكتروني" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <select required>
+                                <option value="">نوع المشروع</option>
+                                <option value="consulting">استشارة تسويقية</option>
+                                <option value="ads">إعلانات مدمجة</option>
+                                <option value="strategy">استراتيجية محتوى</option>
+                                <option value="analysis">تحليل بيانات</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <textarea placeholder="أخبرني عن مشروعك وأهدافك..." rows="5" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">
+                            <span class="btn-text">إرسال الطلب</span>
+                            <div class="btn-icon">
+                                <i class="fas fa-paper-plane"></i>
+                            </div>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- التذييل -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <div class="logo-icon">
+                    <i class="fas fa-chart-network"></i>
+                </div>
+                <span class="logo-text">زياد</span>
+            </div>
+            
+            <p class="footer-description">خبير تسويق رقمي متخصص في تحويل الأفكار إلى حملات ناجحة</p>
+            
+            <div class="footer-social">
+                <a href="#" class="social-link">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" class="social-link">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="#" class="social-link">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#" class="social-link">
+                    <i class="fab fa-behance"></i>
+                </a>
+            </div>
+            
+            <div class="footer-copyright">
+                <p>© 2024 جميع الحقوق محفوظة. تصميم وتطوير بكل حب</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
